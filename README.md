@@ -7,7 +7,41 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Composer Specs Packages
+
+```json
+"require": {
+    "php": "^7.3|^8.0",
+    "fideloper/proxy": "^4.4",
+    "fruitcake/laravel-cors": "^2.0",
+    "guzzlehttp/guzzle": "^7.0.1",
+    "jeremykenedy/laravel-roles": "^5.1",
+    "laravel/framework": "^8.12",
+    "laravel/sanctum": "^2.8",
+    "laravel/tinker": "^2.5",
+    "ramsey/uuid": "^4.1"
+},
+```
+
+## Install Command
+
+:::
+$ composer install
+$ php artisan serve
+:::
+
+## Includes
+
+:::
+- Laravel Sanctum API Airlock SPA
+-- Enable Cors
+-- Generate Tokens Credential
+- jeremykenedy/laravel-roles for roles managements
+-- Customs Response to JSON format
+-- Validate Middleware Customize with Sanctum
+:::
+
+## About Laravel Framework 8.+
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
